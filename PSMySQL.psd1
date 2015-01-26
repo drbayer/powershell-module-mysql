@@ -24,7 +24,7 @@ ModuleVersion = '1.0.0.0'
 GUID = '378a4468-cab6-4418-9a62-2ec1cbe72d2d'
 
 # Author of this module
-Author = 'administrator'
+Author = 'David Bayer'
 
 # Company or vendor of this module
 CompanyName = ''
@@ -33,7 +33,7 @@ CompanyName = ''
 Copyright = '(c) 2015. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Module description'
+Description = 'Provides PowerShell cmdlets to work with MySQL databases.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 PowerShellVersion = '2.0'
@@ -78,7 +78,7 @@ NestedModules = @()
 FunctionsToExport = '*'
 
 # Cmdlets to export from this module
-CmdletsToExport = '*'
+CmdletsToExport = 'Get-MySQLValue'
 
 # Variables to export from this module
 VariablesToExport = '*'

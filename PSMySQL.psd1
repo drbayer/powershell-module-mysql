@@ -36,7 +36,7 @@ Copyright = '(c) 2015. All rights reserved.'
 Description = 'Provides PowerShell cmdlets to work with MySQL databases.'
 
 # Minimum version of the Windows PowerShell engine required by this module
-PowerShellVersion = '2.0'
+PowerShellVersion = '3.0'
 
 # Name of the Windows PowerShell host required by this module
 PowerShellHostName = ''
@@ -78,7 +78,7 @@ NestedModules = @()
 FunctionsToExport = '*'
 
 # Cmdlets to export from this module
-CmdletsToExport = 'Get-MySQLValue'
+CmdletsToExport = '*'
 
 # Variables to export from this module
 VariablesToExport = '*'
